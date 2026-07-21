@@ -2,11 +2,13 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# คัดลอกไฟล์ทั้งหมดมาวาง
+# คัดลอกไฟล์ทั้งหมดจาก GitHub เข้ามา
 COPY . .
 
-# เจาะลึกเข้าไปในโฟลเดอร์ backend และ RedPandaApi ตามโครงสร้างจริง
+# เจาะลึกเข้าไปในเส้นทางที่ถูกต้อง (backend/RedPandaApi)
 WORKDIR /src/backend/RedPandaApi
+
+# Build และ Publish โปรเจกต์
 RUN dotnet publish RedPandaApi.csproj -c Release -o /app/publish
 
 # ใช้ .NET Runtime สำหรับรันเซิร์ฟเวอร์จริง
