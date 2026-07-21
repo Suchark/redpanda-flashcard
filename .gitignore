@@ -1,0 +1,16 @@
+
+# .NET
+backend/RedPandaApi/bin/
+backend/RedPandaApi/obj/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+
+# Visual Studio temporary files
+.vs/
+bin/
+obj/
