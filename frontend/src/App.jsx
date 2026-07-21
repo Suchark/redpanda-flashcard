@@ -8,7 +8,7 @@ import AddCard from "./pages/AddCard.jsx";
 import Study from "./pages/Study.jsx";
 import Quiz from "./pages/Quiz.jsx";
 import Matching from "./pages/Matching.jsx";
-import MixedGame from "./pages/MixedGame.jsx";
+import Mixedgame from "./pages/Mixedgame.jsx";
 import Settings from "./pages/Settings.jsx";
 
 export default function App() {
@@ -24,7 +24,7 @@ export default function App() {
           <Route path="/study" element={<Study />} />
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/matching" element={<Matching />} />
-          <Route path="/mixed" element={<MixedGame />} />
+          <Route path="/mixed" element={<Mixedgame />} />
           <Route path="/settings" element={<Settings />} />
         </Routes>
       </main>
