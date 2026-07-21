@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\redpanda-flashcard\\backend\\RedPandaApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2575D40B-95D5-77DB-1A21-41F63FB7B66F}|RedPandaApi.csproj|d:\\redpanda-flashcard\\backend\\redpandaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2575D40B-95D5-77DB-1A21-41F63FB7B66F}|RedPandaApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2575D40B-95D5-77DB-1A21-41F63FB7B66F}|RedPandaApi.csproj|d:\\redpanda-flashcard\\backend\\redpandaapi\\controllers\\studycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2575D40B-95D5-77DB-1A21-41F63FB7B66F}|RedPandaApi.csproj|solutionrelative:controllers\\studycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2575D40B-95D5-77DB-1A21-41F63FB7B66F}|RedPandaApi.csproj|d:\\redpanda-flashcard\\backend\\redpandaapi\\redpandaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2575D40B-95D5-77DB-1A21-41F63FB7B66F}|RedPandaApi.csproj|solutionrelative:redpandaapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2575D40B-95D5-77DB-1A21-41F63FB7B66F}|RedPandaApi.csproj|d:\\redpanda-flashcard\\backend\\redpandaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2575D40B-95D5-77DB-1A21-41F63FB7B66F}|RedPandaApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2575D40B-95D5-77DB-1A21-41F63FB7B66F}|RedPandaApi.csproj|d:\\redpanda-flashcard\\backend\\redpandaapi\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 250,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -109,12 +109,8 @@
               "Name": "ST:2090367263:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SpacedRepetitionService.cs",
               "DocumentMoniker": "D:\\redpanda-flashcard\\backend\\RedPandaApi\\Services\\SpacedRepetitionService.cs",
               "RelativeDocumentMoniker": "Services\\SpacedRepetitionService.cs",
@@ -122,25 +118,24 @@
               "RelativeToolTip": "Services\\SpacedRepetitionService.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAQwDQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T06:34:52.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T06:34:52.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StudyController.cs",
               "DocumentMoniker": "D:\\redpanda-flashcard\\backend\\RedPandaApi\\Controllers\\StudyController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudyController.cs",
               "ToolTip": "D:\\redpanda-flashcard\\backend\\RedPandaApi\\Controllers\\StudyController.cs",
               "RelativeToolTip": "Controllers\\StudyController.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAmwJMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAJMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T06:30:37.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Card.cs",
               "DocumentMoniker": "D:\\redpanda-flashcard\\backend\\RedPandaApi\\Models\\Card.cs",
               "RelativeDocumentMoniker": "Models\\Card.cs",
@@ -148,12 +143,11 @@
               "RelativeToolTip": "Models\\Card.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAA1wBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T05:03:46.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T05:03:46.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DictionaryService.cs",
               "DocumentMoniker": "D:\\redpanda-flashcard\\backend\\RedPandaApi\\Services\\DictionaryService.cs",
               "RelativeDocumentMoniker": "Services\\DictionaryService.cs",
@@ -161,31 +155,29 @@
               "RelativeToolTip": "Services\\DictionaryService.cs",
               "ViewState": "AgIAAGgAAAAAAAAAAAAgwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T06:05:06.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T06:05:06.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RedPandaApi",
+              "DocumentIndex": 5,
+              "Title": "RedPandaApi.csproj",
               "DocumentMoniker": "D:\\redpanda-flashcard\\backend\\RedPandaApi\\RedPandaApi.csproj",
               "RelativeDocumentMoniker": "RedPandaApi.csproj",
               "ToolTip": "D:\\redpanda-flashcard\\backend\\RedPandaApi\\RedPandaApi.csproj",
               "RelativeToolTip": "RedPandaApi.csproj",
               "ViewState": "AgIAAAEAAAAAAAAAAAAkwAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-21T05:04:11.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T05:04:11.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\redpanda-flashcard\\backend\\RedPandaApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\redpanda-flashcard\\backend\\RedPandaApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-21T05:02:05.436Z",
               "EditorCaption": ""
@@ -200,8 +192,7 @@
               "RelativeToolTip": "Controllers\\CardsController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T05:03:37.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T05:03:37.902Z"
             },
             {
               "$type": "Document",
@@ -213,8 +204,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-21T05:00:11.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T05:00:11.132Z"
             },
             {
               "$type": "Document",
@@ -226,18 +216,11 @@
               "RelativeToolTip": "Controllers\\DecksController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T05:00:20.865Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 212,
-          "SelectedChildIndex": -1,
-          "Children": [
+              "WhenOpened": "2026-07-21T05:00:20.865Z"
+            },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             }
           ]
         }
