@@ -2,10 +2,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# คัดลอกไฟล์ทั้งหมดมาวางใน Working Directory ปัจจุบัน
+# คัดลอกไฟล์ทั้งหมดมาวาง
 COPY . .
 
-# Build และ Publish โดยระบุชื่อไฟล์โปรเจกต์ .csproj โดยตรง
+# เจาะลึกเข้าไปในโฟลเดอร์ backend และ RedPandaApi ตามโครงสร้างจริง
+WORKDIR /src/backend/RedPandaApi
 RUN dotnet publish RedPandaApi.csproj -c Release -o /app/publish
 
 # ใช้ .NET Runtime สำหรับรันเซิร์ฟเวอร์จริง
