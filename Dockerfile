@@ -2,19 +2,21 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# คัดลอกไฟล์ทั้งหมดจาก GitHub เข้ามา
+# คัดลอกไฟล์ทั้งหมดมาวาง
 COPY . .
 
-# เจาะลึกเข้าไปในเส้นทางที่ถูกต้อง (backend/RedPandaApi)
+# เจาะลึกเข้าไปในโฟลเดอร์โปรเจกต์จริง
 WORKDIR /src/backend/RedPandaApi
-
-# Build และ Publish โปรเจกต์
 RUN dotnet publish RedPandaApi.csproj -c Release -o /app/publish
 
 # ใช้ .NET Runtime สำหรับรันเซิร์ฟเวอร์จริง
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
+
+# ตั้งค่าให้เป็น Production และปิดการใช้งาน inotify ที่ทำให้เกิด error 139
+ENV ASPNETCORE_ENVIRONMENT=Production
+ENV DOTNET_USE_POLLING_FILE_WATCHER=true
 
 # กำหนด Port และคำสั่งรันแอป
 ENV ASPNETCORE_URLS=http://+:8080
